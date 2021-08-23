@@ -7,3 +7,6 @@ However, depending on your workflow, there may arise a need to transfer between 
 That is, download data from remote(cloud) to local and upload from local to cloud(remote). TRY NOT TO DO THIS. 
 
 With Google Drive, the aforementioned middle man, a.k.a your local machine, can be elimiated using [rclone](https://rclone.org/drive/). Its amazing. 
+
+Few other resources exist to directly download from google drive to a server:  
+* [gdown](https://github.com/wkentaro/gdown)
