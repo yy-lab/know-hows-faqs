@@ -2,6 +2,13 @@
 
 ## Computers and systems 
 
+### Which editor should I use?
+
+[Visual Studio Code](https://code.visualstudio.com) will be the best editor for most. It can handle pretty much all languages and formats. It can natively handle Jupyter notebooks. The remote SSH plugin lets you work in the exactly same environment even when your programs are running on a server. 
+
+For a lightweight editor, it may be worthwhile to learn vim. Use [NeoVim](https://neovim.io). 
+
+
 ### Can we use Google Drive on remote machines? 
 
 Often the need arises to transfer data between your local machine and remote machines (servers). On linux, this is usually handled by `scp` or `rsync`.  *Try `rysnc` if `scp` is taking too much time*
