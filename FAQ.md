@@ -8,6 +8,26 @@
 
 For a lightweight editor, it may be worthwhile to learn vim. Use [NeoVim](https://neovim.io). 
 
+### How can I easily ssh into the computing servers that are not open to the world?
+
+You can add the following to your `~/.ssh/config` (explanation: https://backdrift.org/transparent-proxy-with-ssh).
+
+```
+# Bastion server
+Host sharks
+    HostName sharks.rest.of.domain.name
+    User yourusername
+
+# computing server
+Host ember
+    HostName ember.rest.of.domain.name
+    User yourusername
+    ForwardAgent yes
+    ProxyCommand ssh yourusername@sharks.rest.of.domain.name nc %h %p
+```
+
+Once you copy your public key to `sharks`, you can simply run `ssh ember` to connect to `ember`. 
+
 
 ### Can we use Google Drive on remote machines? 
 
