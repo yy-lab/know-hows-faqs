@@ -8,6 +8,16 @@
 
 For a lightweight editor, it may be worthwhile to learn vim. Use [NeoVim](https://neovim.io). 
 
+### Why should I keep typing my password when I ssh into a server? Can I avoid doing that?
+
+If you don't have your ssh key generated, generate your key by following https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
+
+```sh
+ssh-copy-id -i ~/.ssh/id_ed25519.pub user@host
+```
+
+`id_ed25519.pub` can be different depending on how you generated your ssh key. 
+
 ### How can I easily ssh into the computing servers that are not open to the world?
 
 You can add the following to your `~/.ssh/config` (explanation: https://backdrift.org/transparent-proxy-with-ssh).
