@@ -18,6 +18,17 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub user@host
 
 `id_ed25519.pub` can be different depending on how you generated your ssh key. 
 
+
+### It is annoying to setup a new server or new computing environments. Any solution? 
+
+Create a [dotfile](https://dotfiles.github.io) repo. A dotfile repo efers to a repo that contains all the settings (e.g., git, vim, shell, python, etc.) as well as a script to install them into a new environment. For each new computer to set up, you can simply clone & install it and you're done with the setup. 
+
+
+### Can I avoid typing the full hostname whenever I ssh into a server?
+
+Yes! You should use ssh confg. You can store all kinds of pre-configured settings for each server by using ssh config. 
+
+
 ### How can I easily ssh into the computing servers that are not open to the world?
 
 You can add the following to your `~/.ssh/config` (explanation: https://backdrift.org/transparent-proxy-with-ssh).
