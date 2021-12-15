@@ -49,6 +49,10 @@ Host ember
 
 Once you copy your public key to `sharks`, you can simply run `ssh ember` to connect to `ember`. 
 
+### How can I effectively use IU's supercomputers?
+
+- [Recording](https://iu.mediaspace.kaltura.com/media/t/1_dr5mq1ek)
+- [Demo repo](https://github.com/yangkcatiu/workflowdemo)
 
 ### Can we use Google Drive on remote machines? 
 
@@ -61,7 +65,6 @@ With Google Drive, the aforementioned middle man, a.k.a your local machine, can 
 
 Few other resources exist to directly download from google drive to a server:  
 * [gdown](https://github.com/wkentaro/gdown)
-
 
 ## Methods
 
