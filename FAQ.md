@@ -76,3 +76,13 @@ This [repository](https://github.com/skojaku/Practical-Guide-to-Sentence-Transfo
 ### What is semantic role labeling and how to use it?
 
 - https://iu.mediaspace.kaltura.com/media/t/1_4f4qkder 
+
+## Workflow
+
+### Recommended workflow for YY group's projects
+
+https://yyiki.org/wiki/GitHub/Workflow/
+
+### Snakemake tutorial
+
+Hongtao's [A beginner's guide to Snakemake](https://github.com/hongtaoh/snakemake-tutorial)
