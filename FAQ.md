@@ -86,6 +86,12 @@ Adobe illustrator is probably the most powerful tool to draw all kinds of diagra
 Another totally different approach is using [TikZ/PGF](https://texample.net/tikz/examples/all/). It allows you to _script_ diagrams. It is built on the graph structure and quite nice to draw network/graph figures, although there is a pretty huge learning curve. You can do pretty incredible drawings. 
 
 
+## Jobs
+
+### Internship
+
+You can find many possible internship positions on LinkedIn. You can also talk to professors because they can recommend you to certain positions/people. The best time to apply for a summer internship is usually October-December. It is very helpful to have technical CS conference publications and presence on GitHub. Many positions will require coding interview so you will need to prepare for that. For research internships, use keyword "Research Intern" and for Data Science Internship use "Data Science Intern".
+
 
 
 
