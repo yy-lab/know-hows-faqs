@@ -76,3 +76,18 @@ This [repository](https://github.com/skojaku/Practical-Guide-to-Sentence-Transfo
 ### What is semantic role labeling and how to use it?
 
 - https://iu.mediaspace.kaltura.com/media/t/1_4f4qkder 
+
+## Figures
+
+### What should I use for diagrams or other custom figures?
+
+Adobe illustrator is probably the most powerful tool to draw all kinds of diagrams and figures. However, it is like a chain saw. Consider [OmniGraffle](https://www.omnigroup.com/omnigraffle) (Mac) or [Keynote](https://www.apple.com/keynote/) (Mac) or Powerpoint as a tool for quickly sketching the figure. Illustrator can be used for polishing and composing the figures created in these apps. 
+
+Another totally different approach is using [TikZ/PGF](https://texample.net/tikz/examples/all/). It allows you to _script_ diagrams. It is built on the graph structure and quite nice to draw network/graph figures, although there is a pretty huge learning curve. You can do pretty incredible drawings. 
+
+
+
+
+
+
+
