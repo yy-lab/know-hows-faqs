@@ -87,6 +87,13 @@ For simple figures, you can consider using [TikZ/PGF](https://texample.net/tikz/
 
 Adobe illustrator is probably the most powerful tool to draw all kinds of diagrams and figures. However, it is like a big chain saw. Consider [OmniGraffle](https://www.omnigroup.com/omnigraffle) (Mac) or [Keynote](https://www.apple.com/keynote/) (or Powerpoint) as a tool for quickly sketching the figure. Illustrator can be used for polishing and composing the figures created in these apps. 
 
+### What color scheme should I use?
+
+Using an appropriate color scheme for your figures can not only help you convey your message accurately and effectively but also make your figures more appealing. Here is a nice paper that covers some important principles for choosing color schemes: [The misuse of colour in science communication](https://www.nature.com/articles/s41467-020-19160-7).
+
+If you use Python but are not satisfied with the default color schemes that come with matplotlib, here is a package that provide more options: 
+[scicolor](https://github.com/yangkcatiu/scicolor).
+
 ## Jobs
 
 ### Internship
